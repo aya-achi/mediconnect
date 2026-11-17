@@ -1,0 +1,42 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+
+# Node / frontend
+node_modules/
+dist/
+.vite/
+.tanstack/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Databases / data
+*.db
+*.db-shm
+*.db-wal
+*.sqlite*
+chroma*/
+db_data/
+test-data/
+
+# Docker
+*.log
+
+# IDE / OS
+.idea/
+.vs/
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
